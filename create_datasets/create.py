@@ -3,7 +3,7 @@ import pandas as pd
 from folktables import (
     ACSDataSource, ACSEmployment, ACSPublicCoverage, ACSMobility, ACSIncome, ACSTravelTime
 )
-from utils import MODELS_LIST, US_STATE_LIST
+from .utils import MODELS_LIST, US_STATE_LIST
 
 
 def get_employment_state_data_for_year(state_list, year: int):
